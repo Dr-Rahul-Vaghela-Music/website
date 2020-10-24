@@ -1,0 +1,16 @@
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block" 
+Referrer-Policy ="no-referrer-when-downgrade"
+    Feature-Policy = "payment 'none' "
+    X-Content-Type-Options = "nosniff"
+    Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
+    
+    [[redirects]]
+  from = "https://drrahulvaghelamusic.netlify.com"
+  to = "https://www.drrahulvaghelamusic.com"
+  status = 200
+  force = true
+
