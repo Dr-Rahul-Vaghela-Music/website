@@ -1,6 +1,6 @@
 body {
     scroll-behavior: smooth;
-    background-color: black;
+    background-color: white;
     touch-action: auto;
 }
 
@@ -291,7 +291,7 @@ body {
     }
     100% {
         opacity: 1;
-        background-color:#0e9e8f;
+        background-color:#ae00ff;
     }
 }
 
@@ -734,139 +734,139 @@ body {
 .titleIntellectual{
  width: 100%;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     letter-spacing: 5px;
 }
 .titleAWALKinDream {
     width: 100%;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     letter-spacing: 5px;
 }
 
 .titlesweet {
     width: 100%;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     letter-spacing: 5px;
 }
 
 .titleEarn {
     width: 100%;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     letter-spacing: 5px;
 }
 
 .titleFreez {
     width: 100%;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     letter-spacing: 5px;
 }
 
 .titleElegance {
     width: 100%;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     letter-spacing: 5px;
 }
 
 .titlePartile {
     width: 100%;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     letter-spacing: 5px;
 }
 
 .titleTearsinSilence {
     width: 100%;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     letter-spacing: 5px;
 }
 
 .titleSimplicityblend {
     width: 100%;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     letter-spacing: 5px;
 }
 
 .titleSiberianShadow {
     width: 100%;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     letter-spacing: 5px;
 }
 
 .titleShadesOfLove {
     width: 100%;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     letter-spacing: 5px;
 }
 
 .titleLoadedGifts {
     width: 100%;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     letter-spacing: 5px;
 }
 
 .titleSmoothAndCold {
     width: 100%;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     letter-spacing: 5px;
 }
 
 .titleWondersofWinter {
     width: 100%;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     letter-spacing: 5px;
 }
 
 .titleSnowlights {
     width: 100%;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     letter-spacing: 5px;
 }
 
 .titleNatureoflve {
     width: 100%;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     letter-spacing: 5px;
 }
 
 .titleNightinvenice {
     width: 100%;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     letter-spacing: 5px;
 }
 
 .titleZionAndBeauty {
     width: 100%;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     letter-spacing: 5px;
 }
 
 .titlePerspectiveThrill {
     width: 100%;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     letter-spacing: 5px;
 }
 
 .titleAncient {
     width: 100%;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     letter-spacing: 5px;
 }
 
@@ -966,7 +966,7 @@ width: 600px;
     width: 50px;
 }
 .wordstitlehere{
-    font-size: 80px;
+    font-size: 130px;
 }
 .headermusictit{
     position: relative;
