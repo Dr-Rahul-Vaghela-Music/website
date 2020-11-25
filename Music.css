@@ -61,8 +61,8 @@ body {
    -o-border-radius: 50%;
     border-radius: 50%;
     box-shadow: 1px 1px 96px rgb(255, 255, 255);
-    -webkit-animation: rotatingloader 4s infinite ease-in;
-    animation: rotatingloader 4s infinite ease-in;
+    -webkit-animation: rotatingloader 40s infinite ease-in;
+    animation: rotatingloader 40s infinite ease-in;
 }
 
 .headermusictit {
@@ -268,7 +268,7 @@ body {
     z-index: 1;
     left: 0;
     top: 0;
-    background-color:#0e9e8f;
+    background-color:#0ef7dc;
     transition: 0.2s ease-in-out;
     overflow-x: hidden;
     -webkit-transition: 0.2s ease-in-out;
