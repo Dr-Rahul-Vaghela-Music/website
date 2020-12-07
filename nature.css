@@ -8,8 +8,7 @@ html {
     scroll-behavior: smooth;
     align-items: center;
 }
-
-.titlehea.boxed{
+.boxed{
     width: 100%;
     display: flex;
     text-align: center;
@@ -25,7 +24,8 @@ html {
 .art>img{
     width: 1000px;
     height: 1000px;
-}de {
+}
+.titleheade {
     overflow-x: hidden;
     width: 100%;
     font-size: 260px;
