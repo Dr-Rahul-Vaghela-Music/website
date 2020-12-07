@@ -9,7 +9,23 @@ html {
     align-items: center;
 }
 
-.titleheade {
+.titlehea.boxed{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    background-color: rgb(71, 6, 223);
+    
+}
+.art{
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    overflow-x: hidden;
+}
+.art>img{
+    width: 1000px;
+    height: 1000px;
+}de {
     overflow-x: hidden;
     width: 100%;
     font-size: 260px;
@@ -99,6 +115,22 @@ html {
         line-height: 30px;
         word-spacing: 10px;
 
+    }
+    .boxed{
+        width: 100%;
+        display: flex;
+        text-align: center;
+        
+    }
+    .art{
+        width: 100%;
+        align-items: center;
+        align-content: center;
+        overflow-x: hidden;
+    }
+    .art>img{
+        width: 500px;
+        height: 500px;
     }
 
 }
