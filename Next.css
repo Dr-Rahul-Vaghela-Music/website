@@ -1,243 +1,488 @@
 body{
-    scroll-behavior: smooth;
     background-color: rgb(255, 255, 255);
-    opacity: 1;
-    overflow-x: hidden;
-    animation: fade 80s infinite ease;
-}
-@keyframes fade {
-    0%{
-    background-color: white;
-        }
-    50%{
-        background-color:#7d42f4;
-    }
-    100%{
-    background-color:white;
-    }
-}
-html{
-    scroll-behavior: smooth;
-    overflow-x: hidden;
-
-}
-.Loader {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    background-color: rgb(0, 0, 0);
-    z-index: 99;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    display: flex;
-    justify-content: center;
-    align-content: center;
 }
 
-.Loader.hidden {
-    display: none;
-}
-
-.movlogo {
-    position: relative;
-    width: 100px;
-    justify-content: center;
-    align-content: center;
-    top: 300px;
-}
-
-@keyframes rotatingloader {
-    0% {
-        opacity: 0;
-        -webkit-transform: rotateZ(1000deg);
-        -moz-transform: rotateZ(1000deg);
-        -ms-transform: rotateZ(1000deg);
-        -o-transform: rotateZ(1000deg);
-         transform: rotateZ(1000deg);
-    }
-    50% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0;
-        -webkit-transform: rotateZ(2000deg);
-        -moz-transform: rotateZ(2000deg);
-        -ms-transform: rotateZ(2000deg);
-        -o-transform: rotateZ(2000deg);
-         transform: rotateZ(2000deg);
-    }
-}
-
-.movlogo>img {
-    width: 100%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-    border-radius: 50%;
-    box-shadow: 1px 1px 66px #dedede;
-    animation: rotatingloader 10s infinite ease;
-    -webkit-animation: rotatingloader 10s infinite ease;
-}
-.container{
-    position: relative;
-    width: 100%;
-    align-content: center;
-    display: flex;
-}
-.navbar{
-    position: relative;
-    width: 100%;
-    justify-content: center;
-    align-content: center;
+.titles{
+    width: auto;
     text-align: center;
-    overflow-x: hidden;
-    overflow-y: hidden;
-  
+    color: rgb(22, 155, 133);
+    font-size: xx-large;
+    background-color: rgb(54, 49, 49);
 }
-
-.navbar a{
-    position: relative;
-    color: black;
-    padding: 50px;
+.description
+{
+    width: auto;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 6px;
+    outline-color: rgb(179, 124, 231);
+}
+.youtubelinkstomychanels{
+    margin-top: 20px;
+    width: auto;
     align-content: center;
     text-align: center;
     font-size: xx-large;
-    justify-content: center;
-    text-decoration: none;
-    opacity:1 ;
-    text-transform: none;
-    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 4px;
+    color: aqua;
 }
-.navbar a:hover{
-   opacity: 0.5;
-   font-size: small;
-   padding:200px ;
-   color: rgb(0, 95, 48);
-}
-.noticeline{
-    position: relative;
-    justify-content: center;
-    align-content: center;
-    text-align: center;
-    width: 100%;
-    color: rgb(105, 105, 105);
-    animation: fadeN 80s infinite ease;
-    font-size: xx-large;
+.youtubelinkstomychanels a {
 
+    text-align: center;
+    outline-color: rgb(172, 113, 228);
+    text-decoration: none;
+    font-size: xx-small;
 }
-@keyframes fadeN {
-    0%{
-    color: rgb(105, 105, 105);
-        }
-    50%{
-        color:white;
-    }
-    100%{
-    color:rgb(105, 105, 105);
-    }
-}
-.lines{
-    width: 100%;
+
+.youtubelinkstomychanels2{
+    margin-top: 20px;
+    width: auto;
     align-content: center;
     text-align: center;
-    justify-content: center;
-    font-size: larger;
-    word-spacing: 10px;margin: auto;
-}
-.lines a{
-    color: red;
-    text-transform: none;
-    text-decoration: none;
-}
-.boxstyleher{
-    width: 100%;
-    position: relative;
-    display: flex;
-    height: 150px;
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
-    text-align: center;
-    justify-content: center;
-    align-content: center;
-    transition: 1s all ;
-    overflow-y: hidden;
-    overflow-x: hidden;
-}
-.boxstyleher:hover{
-    background-color: royalblue;
-}
-.boxstyleher a{
-    text-decoration: none;
-    text-transform: none;
-    color: rgb(255, 255, 255);
-    padding: 50px;
     font-size: xx-large;
-    transition: cubic-bezier(0.075, 0.82, 0.165, 1)1s;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 4px;
+    color: rgb(20, 197, 197);
 }
-.boxstyleher a:hover{
-    opacity: 0.2;
-    font-size: small;
-    padding: 120px;
+.youtubelinkstomychanels2 a {
+
+    text-align: center;
+    outline-color: rgb(199, 172, 224);
+    text-decoration: none;
+    font-size: xx-small;
 }
-.seprator{
-    width: 30%;
-    height: 1px;
-    background-color:rgb(116, 116, 116);
+.youtubelinkstomychanels3{
+    margin-top: 20px;
+    width: auto;
+    align-content: center;
+    text-align: center;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 4px;
+    color: rgb(26, 161, 161);
+}
+.youtubelinkstomychanels3 a {
+
+    text-align: center;
+    outline-color: rgb(181, 112, 245);
+    text-decoration: none;
+    font-size: xx-small;
+}
+
+.youtubelinkstomychanels4{
+    margin-top: 20px;
+    width: auto;
+    align-content: center;
+    text-align: center;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 4px;
+    color: rgb(75, 201, 201);
+}
+.youtubelinkstomychanels4 a {
+
+    text-align: center;
+    outline-color: rgb(177, 143, 209);
+    text-decoration: none;
+    font-size: xx-small;
+}
+
+.youtubelinkstomychanels5{
+    margin-top: 20px;
+    width: auto;
+    align-content: center;
+    text-align: center;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 4px;
+    color: rgb(69, 136, 136);
+}
+.youtubelinkstomychanels5 a {
+
+    text-align: center;
+    outline-color: rgb(177, 143, 209);
+    text-decoration: none;
+    font-size: xx-small;
+}
+.youtubelinkstomychanels6{
+    margin-top: 20px;
+    width: auto;
+    align-content: center;
+    text-align: center;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 4px;
+    color: rgb(63, 77, 77);
+}
+.youtubelinkstomychanels6 a {
+
+    text-align: center;
+    outline-color: rgb(177, 143, 209);
+    text-decoration: none;
+    font-size: xx-small;
+}
+
+.youtubelinkstomychanels7{
+    margin-top: 20px;
+    width: auto;
+    align-content: center;
+    text-align: center;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 4px;
+    color: rgb(71, 231, 231);
+}
+.youtubelinkstomychanels7 a {
+
+    text-align: center;
+    outline-color: rgb(177, 143, 209);
+    text-decoration: none;
+    font-size: xx-small;
+}
+.youtubelinkstomychanels8{
+    margin-top: 20px;
+    width: auto;
+    align-content: center;
+    text-align: center;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 4px;
+    color: rgb(16, 114, 114);
+}
+.youtubelinkstomychanels8 a {
+
+    text-align: center;
+    outline-color: rgb(177, 143, 209);
+    text-decoration: none;
+    font-size: xx-small;
+}
+
+.youtubelinkstomychanels9{
+    margin-top: 20px;
+    width: auto;
+    align-content: center;
+    text-align: center;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 4px;
+    color: rgb(164, 190, 16);
+}
+.youtubelinkstomychanels9 a {
+
+    text-align: center;
+    outline-color: rgb(177, 143, 209);
+    text-decoration: none;
+    font-size: xx-small;
+}
+.youtubelinkstomychanels10{
+    margin-top: 20px;
+    width: auto;
+    align-content: center;
+    text-align: center;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 4px;
+    color: rgb(163, 194, 27);
+}
+.youtubelinkstomychanels10 a {
+
+    text-align: center;
+    outline-color: rgb(177, 143, 209);
+    text-decoration: none;
+    font-size: xx-small;
+}
+.colorstriphere{
+    width: 100%;
+    height: 50px;
+    background-color:rgb(205, 59, 224);
+}
+.colorstripherefirst{
+    width: 100%;
+    height: 50px;
+    background-color:rgb(206, 25, 176);
+}
+.colorstriphere2{
+    width: 100%;
+    height: 50px;
+    background-color:rgb(238, 46, 136);
+}
+.colorstriphere3{
+    width: 100%;
+    height: 50px;
+    background-color:rgb(231, 62, 141);
+}
+.colorstriphere4{
+    width: 100%;
+    height: 50px;
+    background-color:rgb(255, 147, 197);
+}
+.colorstriphere5{
+    width: 100%;
+    height: 50px;
+    background-color:rgb(248, 178, 211);
+}
+
+.colorstriphere6{
+    width: 100%;
+    height: 50px;
+    background-color:rgb(165, 91, 235);
+}
+.colorstriphere7{
+    width: 100%;
+    height: 50px;
+    background-color:rgb(62, 12, 109);
+}
+.colorstriphere8{
+    width: 100%;
+    height: 50px;
+    background-color:rgb(205, 154, 253);
+}
+.youtubelinkstomychanels11{
+    margin-top: 20px;
+    width: auto;
+    align-content: center;
+    text-align: center;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 4px;
+    color: rgb(223, 136, 6);
+}
+.youtubelinkstomychanels11 a {
+
+    text-align: center;
+    outline-color: rgb(177, 143, 209);
+    text-decoration: none;
+    font-size: xx-small;
+}
+
+.youtubelinkstomychanels12{
+    margin-top: 20px;
+    width: auto;
+    align-content: center;
+    text-align: center;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 4px;
+    color: rgb(201, 159, 97);
+}
+.youtubelinkstomychanels12 a {
+
+    text-align: center;
+    outline-color: rgb(177, 143, 209);
+    text-decoration: none;
+    font-size: xx-small;
+}
+.youtubelinkstomychanels13{
+    margin-top: 20px;
+    width: auto;
+    align-content: center;
+    text-align: center;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 4px;
+    color: rgb(241, 148, 26);
+    background-color: rgb(106, 192, 142);
+}
+.youtubelinkstomychanels13 a {
+
+    text-align: center;
+    outline-color: rgb(177, 143, 209);
+    text-decoration: none;
+    font-size: xx-small;
+}
+.youtubelinkstomychanels14{
+    margin-top: 20px;
+    width: auto;
+    align-content: center;
+    text-align: center;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 4px;
+    color: rgb(41, 194, 214);
+    background-color: rgb(238, 206, 102);
+}
+.youtubelinkstomychanels14 a {
+
+    text-align: center;
+    outline-color: rgb(177, 143, 209);
+    text-decoration: none;
+    font-size: xx-small;
+}
+.youtubelinkstomychanels15{
+    margin-top: 20px;
+    width: auto;
+    align-content: center;
+    text-align: center;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 4px;
+    color: rgb(41, 194, 214);
+}
+.youtubelinkstomychanels15 a {
+
+    text-align: center;
+    outline-color: rgb(177, 143, 209);
+    text-decoration: none;
+    font-size: xx-small;
+}
+.youtubelinkstomychanels16{
+    margin-top: 20px;
+    width: auto;
+    align-content: center;
+    text-align: center;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 4px;
+    color: rgb(73, 196, 48);
+}
+.youtubelinkstomychanels16 a {
+
+    text-align: center;
+    outline-color: rgb(177, 143, 209);
+    text-decoration: none;
+    font-size: xx-small;
+}
+.youtubelinkstomychanels17{
+    margin-top: 20px;
+    width: auto;
+    align-content: center;
+    text-align: center;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 4px;
+    color: rgb(43, 91, 196);
+}
+.youtubelinkstomychanels17 a {
+
+    text-align: center;
+    outline-color: rgb(177, 143, 209);
+    text-decoration: none;
+    font-size: xx-small;
+}
+.youtubelinkstomychanels18{
+    margin-top: 20px;
+    width: auto;
+    align-content: center;
+    text-align: center;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 4px;
+    color: rgb(80, 120, 207);
+}
+.youtubelinkstomychanels18 a {
+
+    text-align: center;
+    outline-color: rgb(177, 143, 209);
+    text-decoration: none;
+    font-size: xx-small;
+}
+.youtubelinkstomychanels19{
+    margin-top: 20px;
+    width: auto;
+    align-content: center;
+    text-align: center;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 4px;
+    color: rgb(80, 120, 207);
+}
+.youtubelinkstomychanels19 a {
+
+    text-align: center;
+    outline-color: rgb(177, 143, 209);
+    text-decoration: none;
+    font-size: xx-small;
+}
+.youtubelinkstomychanels20{
+    margin-top: 20px;
+    width: auto;
+    align-content: center;
+    text-align: center;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 4px;
+    color: rgb(24, 160, 149);
+}
+.youtubelinkstomychanels20 a {
+
+    text-align: center;
+    outline-color: rgb(177, 143, 209);
+    text-decoration: none;
+    font-size: xx-small;
+}
+.youtubelinkstomychanels21{
+    margin-top: 20px;
+    width: auto;
+    align-content: center;
+    text-align: center;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 4px;
+    color: rgb(24, 160, 149);
+}
+.youtubelinkstomychanels21 a {
+
+    text-align: center;
+    outline-color: rgb(177, 143, 209);
+    text-decoration: none;
+    font-size: xx-small;
+}
+.youtubelinkstomychanels22{
+    margin-top: 20px;
+    width: auto;
+    align-content: center;
+    text-align: center;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 4px;
+    color: rgb(24, 160, 149);
+}
+.youtubelinkstomychanels22 a {
+
+    text-align: center;
+    outline-color: rgb(177, 143, 209);
+    text-decoration: none;
+    font-size: xx-small;
 }
 .copyright{
-    width: 100%;
-    color: rgb(85, 85, 85);
-    font-size: xx-small;
-}
-@media only screen and (min-width:10px) and (max-width:700px){
-.boxstyleher a{
-    font-size: medium;
-    padding: 5px;
-    transition:cubic-bezier(0.175, 0.885, 0.32, 1.275)0.5s;
-}
-.boxstyleher a:hover{
-    opacity: 0.2;
-    font-size: small;
-    padding: 10px;
-}
-.boxstyleher{
-    height: 50px;
-}
-.navbar a{
-    font-size: medium;
-    padding: 10px;
-}
-.noticeline{
-    font-size: xx-small;
-}
-.lines{
-    font-size: small;
-}
-}
-
-.viewcounter{
-    position: relative;
-    width: 100%;
     text-align: center;
-    letter-spacing: 5px;
-    color: black;
-    opacity: 0;
-    animation: fade 100s infinite;
+    margin-bottom: 0px;
 }
-@keyframes fade {
 
-    0%{
-        opacity: 0.5;
-    }
-    50%{
-        opacity: 1;
-    }
 
-    100%{
-        opacity: 0.5;
-    }
-
+@media only screen and (min-width:30px) and (max-width:500px) {
+.titles{
+    font-size: medium;
+}
+.youtubelinkstomychanels,.youtubelinkstomychanels2,.youtubelinkstomychanels3,.youtubelinkstomychanels4,.youtubelinkstomychanels5,.youtubelinkstomychanels6,.youtubelinkstomychanels7,.youtubelinkstomychanels8,.youtubelinkstomychanels9,.youtubelinkstomychanels10,.youtubelinkstomychanels11,.youtubelinkstomychanels12,.youtubelinkstomychanels13,.youtubelinkstomychanels14,.youtubelinkstomychanels15,.youtubelinkstomychanels16,.youtubelinkstomychanels17,.youtubelinkstomychanels18,.youtubelinkstomychanels19,.youtubelinkstomychanels20,.youtubelinkstomychanels21,.youtubelinkstomychanels22{
+    font-size: medium;
+    letter-spacing: 3px;
+}
+.description{
+    font-size: medium;
+    letter-spacing: 4px;
+}
 }
