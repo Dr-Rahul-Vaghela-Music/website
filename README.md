@@ -1,7 +1,7 @@
 Direct Deals can Also Happen through BMI.com legally then dont have to worry about furthr errors.
 Tunecore is not the part of Dr Rahul Vaghela Music or Rahul Shailesh Vaghela
 I have two youtube channels 
-one is under gcallofdutygame@gmail.com 
+one is under gcallofdutygame@gmail.com (qt thing, you have so many options to select)
 second is private rahulwaghela101dc@gmail.com
 never contact on this for official music inquiry though lol 
 these are for fans
