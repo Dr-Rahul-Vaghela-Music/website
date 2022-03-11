@@ -1,7 +1,7 @@
 Tunecore is not the part of Dr Rahul Vaghela Music or Rahul Shailesh Vaghela
 I have two youtube channels 
 one is under gcallofdutygame@gmail.com 
-second is private rahulwaghel101dc@gmail.com
+second is private rahulwaghela101dc@gmail.com
 never contact on this for official music inquiry though lol 
 these are for fans
 my professional email is music@drrahulvaghelamusic.com and owner@drrahulvaghelamusic.com
