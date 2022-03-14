@@ -8,6 +8,7 @@ these are for fans
 my professional email is music@drrahulvaghelamusic.com and owner@drrahulvaghelamusic.com
 WE (means Only I, there is certainly no one other than myself in music or developing) never call anyone for any kind of money deals or fees if you find anyone contacting regarding for those calls pretending to be from us (only me) then contact asap on owner@drrahulvaghelamusic.com then report file to bmi.com under my name.
 #proud to be a straight man . :D
+even coding is mine .ml domain was mine too i deleted .ml domain and forked from my own free domain to free com domain then not using it anymore free domain is garbage
 
 # New-Data
 Website Codes
