@@ -10,6 +10,8 @@ WE (means Only I, there is certainly no one other than myself in music or develo
 #proud to be a straight man . :D
 even coding is mine .ml domain was mine too i deleted .ml domain and forked from my own free domain to free com domain then not using it anymore free domain is garbage
 
+Be careful to use files from free domains because only melody is free and garbage you cant use little cut and creepy copy paste thing there.
+
 # New-Data
 Website Codes
 This Is Only Official Website for My Own Music Website directory so whatever you find inside the website including every line of html, css, js codes & all the links to the music files are completely created by me {;) Rahul Shailesh Vaghela} from the blank pages.
